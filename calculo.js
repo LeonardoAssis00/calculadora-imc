@@ -12,9 +12,9 @@ function calcular() {
         return;
     }
 
-    var converte = altura / 100;
+    var alturaConvertida = altura / 100;
 
-    var massa = peso / (altura * altura);
+    var massa = peso / (alturaConvertida * alturaConvertida);
 
     var classificar = "";
 
