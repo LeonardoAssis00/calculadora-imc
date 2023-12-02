@@ -1,0 +1,8 @@
+body, html {
+    width: 100%;
+}
+
+#conteudo{
+    width: 100vh;
+    height: 100vh;
+}

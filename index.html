@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/8646345350.js" crossorigin="anonymous"></script>
+
+    <!--Estilo customizado-->
+    <link rel="stylesheet" href="css/estilo.css">
+
+    <!--HTML5 shiv-->
+    <!--[if lt IE 9]>
+	<script src="bower_components/html5shiv/dist/html5shiv.js"></script>
+<![endif]-->
+
+<link rel="shortcut icon" href="imagens/favicon.png" type="image/x-icon">
+
+    <title>Padrão</title>
+  </head>
+  <body>
+    
+    <div class="container"> <!-- Container -->
+      <div class="row justify-content-center"> <!-- Row -->
+        <div id="conteudo" class="bg-dark text-light text-center"> <!-- Conteudo-->
+          <h1 class="display-4 font-italic">Calculadora IMC</h1>
+
+          <form action="" class="form form-group m-3">
+            <input id="inPeso" class="form-control mt-5 mb-5" type="text" placeholder="Peso (kg)" autofocus>
+            <input id="inAltura" class="form-control mb-5" type="text" placeholder="Altura (cm)">
+            <div class="d-flex justify-content-center">
+              <input id="btCalcular" class="btn btn-outline-success m-0 btn-block mb-5" type="button" value="Calcular">
+
+            </div> <!-- /Conteudo -->
+
+            <div id="outResultado"> <!-- Resultado -->
+              <h3 class="display-3"></h3>
+            </div> <!-- /Resultado -->
+          </form>
+
+      </div> <!-- /Row -->
+    </div> <!-- /Container -->
+
+
+    <script src="calculo.js"></script> <!-- js custom -->
+
+    <!-- JavaScript (Opcional) -->
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>
